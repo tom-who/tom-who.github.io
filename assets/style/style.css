@@ -218,6 +218,10 @@ a{
     filter: invert(100%);
 }
 
+.thmProfile{
+    margin: 0 auto; /* Center horizontally */
+}
+
 @media (max-width: 768px) {
     .navbar{
         font-size: 14px;
