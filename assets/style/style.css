@@ -200,3 +200,24 @@ a{
     color: #666;
     margin-bottom: 20px;
 }
+
+.socials{
+    position: absolute;
+    bottom: 5%;
+    height: 160px;
+}
+
+.socials img{
+    width: 150px;
+    height: 150px;
+    size: 150px;
+    transition: 0.2s;
+}
+
+.socials img:hover{
+    margin: 1px;
+}
+
+.mail{
+    filter: invert(100%);
+}
