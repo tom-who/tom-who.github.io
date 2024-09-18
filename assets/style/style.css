@@ -7,8 +7,6 @@
     list-style: none;
     text-decoration: none;
     font-family: "Oswald", sans-serif;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .logo{
@@ -39,6 +37,8 @@
 }
 
 a{
+    overflow-y: hidden;
+    overflow-x: hidden;
     color: rgb(124, 124, 124);
     transition: 0.2s;
 }

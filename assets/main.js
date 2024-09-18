@@ -25,6 +25,7 @@ function adjustingForMobile() {
         homeStuff.forEach(function(card) {
             card.style.fontSize = '10px'
             card.style.padding = '5px';  
+            card.style.paddingBottom = '5px';
         });
     } else {
         const socials = document.querySelectorAll('.socials img');
