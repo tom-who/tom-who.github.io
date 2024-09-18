@@ -214,10 +214,6 @@ a{
     transition: 0.2s;
 }
 
-.socials img:hover{
-    margin: 1px;
-}
-
 .mail{
     filter: invert(100%);
 }

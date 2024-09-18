@@ -3,6 +3,8 @@ function adjustingForMobile() {
         const images = document.querySelectorAll('.side-logo');
         const navbarLinks = document.querySelectorAll('.navbar li a');
         const logos = document.querySelectorAll('.logo');
+        const socials = document.querySelectorAll('.socials img');
+        const homeStuff = document.querySelectorAll('.cont');
         
         navbarLinks.forEach(function(link) {
             link.style.fontSize = '16px'; 
@@ -15,7 +17,17 @@ function adjustingForMobile() {
         images.forEach(function(image) {
             image.style.display = 'none';
         });
+        socials.forEach(function(socials) {
+            socials.style.padding = '10px';
+            socials.style.height = '80px';
+            socials.style.width = '80px';
+        });
+        homeStuff.forEach(function(card) {
+            card.style.fontSize = '10px'
+            card.style.padding = '5px';  
+        });
     } else {
+        const socials = document.querySelectorAll('.socials img');
         const images = document.querySelectorAll('.side-logo');
         const navbarLinks = document.querySelectorAll('.navbar li a');
         const logos = document.querySelectorAll('.logo');
@@ -30,6 +42,11 @@ function adjustingForMobile() {
         });
         images.forEach(function(image) {
             image.style.display = '';
+        });
+        socials.forEach(function(socials) {
+            socials.style.padding = '';
+            socials.style.height = '';
+            socials.style.width = '';
         });
     }
 }
