@@ -1,3 +1,6 @@
+window.onload = adjustingForMobile;
+window.onresize = adjustingForMobile;
+
 function adjustingForMobile() {
         if (window.innerWidth <= 1200) {
         const images = document.querySelectorAll('.side-logo');
@@ -51,6 +54,3 @@ function adjustingForMobile() {
         });
     }
 }
-
-window.onload = adjustingForMobile;
-window.onresize = adjustingForMobile;

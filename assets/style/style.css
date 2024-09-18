@@ -50,8 +50,8 @@ a{
 }
 
 .navbar a:hover{
+    transform: scale(1.1);
     color: rgb(0, 128, 43);
-    letter-spacing: 2px;
     text-decoration: overline;
 }
 
@@ -216,4 +216,12 @@ a{
 
 .mail{
     filter: invert(100%);
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        font-size: 14px;
+        padding: 8px;
+        transform: none;
+    }
 }
