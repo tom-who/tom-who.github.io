@@ -3,3 +3,7 @@ description: My site for documenting, CTF writeups and more.
 baseurl: ""
 url: "https://tom-who.github.io"
 theme: minima
+collections:
+  blog:
+    output: true
+    permalink: /:year/:month/:day/:title/
