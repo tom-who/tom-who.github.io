@@ -50,6 +50,7 @@ a{
 }
 
 .navbar a:hover{
+    letter-spacing: 2px;
     transform: scale(1.1);
     color: rgb(0, 128, 43);
     text-decoration: overline;
