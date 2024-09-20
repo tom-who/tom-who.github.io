@@ -7,6 +7,7 @@ function adjustingForMobile() {
         const navbarLinks = document.querySelectorAll('.navbar li a');
         const logos = document.querySelectorAll('.logo');
         const socials = document.querySelectorAll('.socials img');
+        const social = document.querySelectorAll('.socials');
         const homeStuff = document.querySelectorAll('.cont');
         
         navbarLinks.forEach(function(link) {
@@ -21,10 +22,14 @@ function adjustingForMobile() {
             image.style.display = 'none';
         });
         socials.forEach(function(socials) {
-            socials.style.padding = '10px';
+            socials.style.padding = '20px';
             socials.style.height = '80px';
             socials.style.width = '80px';
         });
+        social.forEach(function(social){
+            social.style.position = 'absolute';
+            social.style.bottom = '0';
+        })
         homeStuff.forEach(function(card) {
             card.style.fontSize = '10px'
             card.style.padding = '5px';  
