@@ -73,6 +73,26 @@ a{
     align-items: center;
 }
 
+.experience h1{
+    margin: auto;
+    align-items: center;
+    color: white;
+}
+
+.experience{
+    padding: 100px;
+}
+
+.experience img{
+    width: 600px;
+    height: 250px;
+}
+
+.experience p{
+    width: 50%;
+    color: white;
+}
+
 .navbar{
     position: absolute;
     z-index: 2;
