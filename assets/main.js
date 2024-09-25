@@ -9,6 +9,7 @@ function adjustingForMobile() {
         const socials = document.querySelectorAll('.socials img');
         const social = document.querySelectorAll('.socials');
         const homeStuff = document.querySelectorAll('.cont');
+        const experience = document.querySelectorAll('.experience p');
         
         navbarLinks.forEach(function(link) {
             link.style.fontSize = '16px'; 
@@ -18,6 +19,9 @@ function adjustingForMobile() {
             logo.style.width = '80px';
             logo.style.backgroundSize = '80px';
         });
+        experience.forEach(function(experience){
+            experience.style.fontSize = '8px';
+        })
         images.forEach(function(image) {
             image.style.display = 'none';
         });
